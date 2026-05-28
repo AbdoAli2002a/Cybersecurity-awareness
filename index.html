@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الحصن الرقمي | التوعية بالأمن السيبراني</title>
+  <meta name="description" content="الحصن الرقمي منصة توعوية مبسطة للعائلات وكبار السن والشركات الناشئة لتعلم الحماية من مخاطر الإنترنت.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand brand-with-logo" href="#home" aria-label="الحصن الرقمي - الصفحة الرئيسية">
+        <img
+          class="brand-logo"
+          src="file:///C:/Users/dadsg/.cursor/projects/c-Users-dadsg-OneDrive-Desktop-cyber/assets/c__Users_dadsg_AppData_Roaming_Cursor_User_workspaceStorage_empty-window_images___________-389b832b-d69b-42bb-9c46-2de6be565de9.png"
+          alt="شعار كلية التربية النوعية جامعة المنيا"
+        >
+        <span>الامن السيبراني  </span>
+      </a>
+      <nav class="main-nav" aria-label="التنقل الرئيسي">
+        <a href="#home">الرئيسية</a>
+        <a href="#academy">أكاديمية التوعية</a>
+        <a href="#social-engineering">هندسة العقول</a>
+        <a href="#emergency">دليل الطوارئ</a>
+        <a href="#radar">رادار التهديدات</a>
+        <a href="#tools">الأدوات التفاعلية</a>
+        <a href="#sim-lab">مختبر المحاكاة</a>
+        <a href="#engagement">التلعيب والتخصيص</a>
+        <a href="#smart-tools">الأدوات الذكية</a>
+        <a href="#community">جدار البلاغات</a>
+        <a href="#b2b">للشركات</a>
+      </nav>
+      <button id="seniorModeToggle" class="btn btn-ghost" type="button">وضع كبار السن</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">أ.د/زينب امين   </p>
+          <h1>حمايتك على الإنترنت تبدأ بوعيك، وليس فقط ببرامجك.</h1>
+          <p class="lead">
+            مرحباً بك في "الحصن الرقمي". في عالم متصل بالكامل، أصبحت بياناتك الشخصية والمالية هدفاً ثميناً.
+            نحن هنا لنبسط لك مفاهيم الأمن السيبراني، ونمنحك الأدوات والمعرفة اللازمة لتصفح الإنترنت بأمان،
+            لك ولعائلتك ولمشروعك.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#academy">ابدأ مسار التوعية الآن</a>
+            <a class="btn btn-ghost" href="#emergency">دليل الطوارئ: هل تعرضت للاختراق؟</a>
+          </div>
+        </div>
+        <aside class="trust-box" aria-label="رسالة الخصوصية">
+          <h2>أولوية الخصوصية</h2>
+          <p>الأدوات التفاعلية تعمل محليًا داخل متصفحك قدر الإمكان لحماية بياناتك.</p>
+          <ul>
+            <li>لا نخزن كلمات المرور داخل أداة الفحص.</li>
+            <li>لا نطلب أي بيانات بنكية أو رموز تحقق.</li>
+            <li>ننصح دائمًا باستخدام قنوات رسمية عند الطوارئ.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="academy" class="section">
+      <div class="container">
+        <h2>أكاديمية التوعية (أساسيات الحماية اليومية)</h2>
+        <div class="cards two-cols content-cards">
+          <article class="card">
+            <h3>1) كلمات المرور: القفل الأول لبابك الرقمي</h3>
+            <p>استخدام "123456" أو تاريخ ميلادك ككلمة مرور يشبه ترك مفتاح منزلك تحت الدواسة.</p>
+            <ul class="plain-list">
+              <li><strong>الطول أهم من التعقيد:</strong> استخدم عبارة مرور مثل: <span dir="ltr">MyCoffeeIsHot&Black2024</span>.</li>
+              <li><strong>لا تعيد التدوير:</strong> لا تستخدم كلمة مرور واحدة لكل الحسابات.</li>
+              <li><strong>الحل السحري:</strong> استخدم برنامج إدارة كلمات المرور لحفظ كلماتك بشكل مشفر.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>2) المصادقة الثنائية (2FA): الحارس الشخصي لحساباتك</h3>
+            <p>حتى لو تمكن أحدهم من سرقة كلمة مرورك، فإن المصادقة الثنائية ستمنعه من الدخول.</p>
+            <ul class="plain-list">
+              <li>بعد كلمة المرور، ستحتاج كوداً إضافياً يتغير كل 30 ثانية.</li>
+              <li>فعّلها فوراً في: البريد الإلكتروني، الحسابات البنكية، ومواقع التواصل.</li>
+            </ul>
+          </article>
+          <article class="card two-col-span">
+            <h3>3) شبكات الواي فاي العامة: فخ المقاهي والمطارات</h3>
+            <p>الإنترنت المجاني مغرٍ، لكنه غالباً غير مشفر. أي شخص على نفس الشبكة قد يتجسس على بياناتك.</p>
+            <ul class="plain-list">
+              <li><strong>قاعدة ذهبية:</strong> لا تفتح الحساب البنكي ولا تنفذ مشتريات وأنت على شبكة عامة.</li>
+              <li><strong>كيف تحمي نفسك:</strong> استخدم بيانات الهاتف (4G/5G) أو VPN موثوق.</li>
+              <li><strong>نصيحة سريعة:</strong> أوقف الاتصال التلقائي بشبكات الواي فاي في هاتفك.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="social-engineering" class="section section-alt">
+      <div class="container">
+        <h2>هندسة العقول (الاحتيال والتصيد)</h2>
+        <p class="section-intro">
+          المخترقون اليوم لا يضيعون وقتهم في كسر الشيفرات المعقدة، بل يحاولون اختراق عقلك لتسليمهم المعلومات بنفسك.
+        </p>
+        <article class="card">
+          <h3>كيف تكتشف رسائل التصيد الاحتيالي؟</h3>
+          <p>ابحث دائماً عن العلامات الحمراء التالية:</p>
+          <ul class="plain-list">
+            <li><strong>الاستعجال والتخويف:</strong> مثل "سيتم إغلاق حسابك البنكي خلال 24 ساعة".</li>
+            <li><strong>الروابط المشبوهة:</strong> راقب الرابط قبل الضغط عليه وتأكد أنه يطابق الموقع الحقيقي.</li>
+            <li><strong>طلب بيانات حساسة:</strong> لا يوجد بنك أو جهة حكومية تطلب كلمة المرور أو كود OTP.</li>
+            <li><strong>عروض لا تصدق:</strong> "ربحت سيارة" أو "عائد 200%" غالباً فخ احتيالي.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="emergency" class="section section-alt">
+      <div class="container">
+        <h2>دليل الطوارئ (ماذا تفعل إذا وقع الفأس في الرأس؟)</h2>
+        <p class="section-intro">التصرف السريع والهادئ في اللحظات الأولى يقلل حجم الخسائر بشكل كبير.</p>
+        <div class="cards three-cols">
+          <article class="card emergency-step">
+            <span class="step-badge">💳</span>
+            <h3>الحالة الأولى: سرقة أو اختراق بطاقتك البنكية</h3>
+            <ul class="plain-list">
+              <li><strong>الخطوة 1:</strong> جمّد البطاقة فوراً من تطبيق البنك.</li>
+              <li><strong>الخطوة 2:</strong> اتصل برقم الطوارئ الرسمي لإلغاء البطاقة والإبلاغ.</li>
+              <li><strong>الخطوة 3:</strong> راجع كشف الحساب بدقة لأي عمليات غير مصرح بها.</li>
+            </ul>
+          </article>
+          <article class="card emergency-step">
+            <span class="step-badge">📱</span>
+            <h3>الحالة الثانية: اختراق واتساب أو مواقع التواصل</h3>
+            <ul class="plain-list">
+              <li><strong>الخطوة 1:</strong> لا تستسلم للابتزاز ولا تحول أموالاً.</li>
+              <li><strong>الخطوة 2:</strong> حذر العائلة والأصدقاء فوراً أن الحساب مخترق.</li>
+              <li><strong>الخطوة 3:</strong> استعد الحساب بكود جديد ثم فعّل المصادقة الثنائية.</li>
+            </ul>
+          </article>
+          <article class="card emergency-step">
+            <span class="step-badge">💻</span>
+            <h3>الحالة الثالثة: الضغط على رابط خبيث أو تحميل فيروس</h3>
+            <ul class="plain-list">
+              <li><strong>الخطوة 1:</strong> افصل الجهاز عن الإنترنت فوراً.</li>
+              <li><strong>الخطوة 2:</strong> نفّذ فحصاً شاملاً عبر مضاد فيروسات محدث.</li>
+              <li><strong>الخطوة 3:</strong> غيّر كلمات المرور المهمة من جهاز آمن آخر.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="radar" class="section">
+      <div class="container">
+        <h2>رادار التهديدات (مُحَدَّث)</h2>
+        <p class="section-intro">تحديثات دورية لأحدث الحيل الاحتيالية المنتشرة.</p>
+        <div class="cards two-cols">
+          <article class="card threat">
+            <h3>احتيال شركات الشحن</h3>
+            <p>رسالة SMS تخبرك بأن "طردك قيد الانتظار بسبب رسوم جمركية غير مدفوعة، اضغط هنا للدفع".</p>
+            <p class="red-flag"><strong>علامة الخطر:</strong> الرابط يسرق بيانات بطاقتك الائتمانية.</p>
+          </article>
+          <article class="card threat">
+            <h3>التزييف العميق (Deepfake) بالذكاء الاصطناعي</h3>
+            <p>قد يتم تقليد صوت أحد أفراد العائلة وطلب مساعدة مالية عاجلة.</p>
+            <p class="red-flag"><strong>الحل:</strong> اتفق مع العائلة على "كلمة سر" شفهية للتحقق من الهوية.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools" class="section section-alt">
+      <div class="container">
+        <h2>الأدوات التفاعلية</h2>
+        <div class="tool-grid">
+          <article id="password-tool" class="card tool-card">
+            <h3>فحص قوة كلمة المرور</h3>
+            <p class="privacy-note">
+              تطمين الخصوصية: التحليل يتم بالكامل داخل المتصفح (Client-side) ولا يتم إرسال كلمة المرور إلى أي خادم.
+            </p>
+            <label for="passwordInput">كلمة المرور</label>
+            <input id="passwordInput" type="password" autocomplete="new-password" placeholder="اكتب كلمة المرور هنا">
+            <div class="meter" aria-hidden="true">
+              <div id="meterFill" class="meter-fill"></div>
+            </div>
+            <p id="strengthLabel" class="strength-label">الحالة: -</p>
+            <ul class="checklist">
+              <li id="check-length">8 أحرف على الأقل</li>
+              <li id="check-upper">حرف كبير (A-Z)</li>
+              <li id="check-lower">حرف صغير (a-z)</li>
+              <li id="check-number">رقم (0-9)</li>
+              <li id="check-symbol">رمز خاص (!@#$...)</li>
+            </ul>
+          </article>
+
+          <article id="phishing-tool" class="card tool-card">
+            <h3>محاكي التصيد الاحتيالي</h3>
+            <p>حدّد ما إذا كانت الرسالة حقيقية أم احتيالية، ثم راجع التفسير مباشرة.</p>
+            <div class="mock-message">
+              <p id="phishMeta" class="message-meta"></p>
+              <h4 id="phishSubject"></h4>
+              <p id="phishBody" class="message-body"></p>
+            </div>
+            <div class="actions">
+              <button id="realBtn" class="btn btn-secondary" type="button">حقيقية</button>
+              <button id="phishingBtn" class="btn btn-danger" type="button">احتيالية</button>
+              <button id="nextBtn" class="btn btn-primary" type="button" hidden>التالي</button>
+            </div>
+            <p id="scoreLine" class="score-line">النتيجة: 0 / 0</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="sim-lab" class="section">
+      <div class="container">
+        <h2>مختبر المحاكاة التفاعلي</h2>
+        <p class="section-intro">
+          أدوات عملية لتدريب الوعي على الهندسة الاجتماعية، حماية البيانات، وأمن الأجهزة والشبكات.
+        </p>
+
+        <div class="cards two-cols">
+          <article class="card">
+            <h3>بوت الاحتيال التفاعلي (Scam Chatbot Simulator)</h3>
+            <p class="section-intro">
+              محادثة تدريبية مع "محتال" وهمي. إذا كتبت بيانات حساسة، سيكشف لك الفخ فوراً.
+            </p>
+            <div id="scamChatBox" class="chat-box"></div>
+            <div class="chat-controls">
+              <input id="scamInput" type="text" placeholder="اكتب ردك هنا...">
+              <button id="scamSendBtn" type="button" class="btn btn-primary">إرسال</button>
+            </div>
+            <p id="scamFeedback" class="form-feedback"></p>
+          </article>
+
+          <article class="card">
+            <h3>محاكي التزييف العميق الصوتي (Voice Deepfake Quiz)</h3>
+            <p class="section-intro">
+              استمع للمقطع الصوتي ثم خمّن: حقيقي أم مُصنّع بهدف الاحتيال المالي؟
+            </p>
+            <div class="audio-quiz">
+              <p id="audioPrompt" class="message-body"></p>
+              <div class="actions">
+                <button id="playAudioBtn" class="btn btn-secondary" type="button">تشغيل المقطع</button>
+                <button id="guessRealAudioBtn" class="btn btn-primary" type="button">حقيقي</button>
+                <button id="guessFakeAudioBtn" class="btn btn-danger" type="button">مصنّع/احتيالي</button>
+                <button id="nextAudioBtn" class="btn btn-ghost" type="button" hidden>التالي</button>
+              </div>
+              <p id="audioResult" class="score-line">النتيجة: 0 / 0</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>محاكي روابط الاختصار (URL Unshortener & Inspector)</h3>
+            <p class="section-intro">
+              أدخل رابطاً مختصراً لتحليل الوجهة المتوقعة بشكل آمن دون فتحه.
+            </p>
+            <label for="shortUrlInput">الرابط المختصر أو المشبوه</label>
+            <input id="shortUrlInput" type="url" placeholder="مثال: https://bit.ly/offer-now">
+            <button id="inspectUrlBtn" class="btn btn-primary" type="button">فحص الرابط</button>
+            <div id="urlInspectorResult" class="inspector-result"></div>
+          </article>
+
+          <article class="card">
+            <h3>عداد زمن الكسر (Password Cracking Time Simulator)</h3>
+            <p class="section-intro">
+              جرّب كلمة مشابهة لكلمتك الحقيقية لمعرفة الزمن المتوقع لكسرها.
+            </p>
+            <label for="crackInput">كلمة المرور التجريبية</label>
+            <input id="crackInput" type="password" placeholder="لا تستخدم كلمة المرور الحقيقية">
+            <button id="crackCalcBtn" class="btn btn-primary" type="button">احسب زمن الكسر</button>
+            <div id="crackResult" class="inspector-result"></div>
+          </article>
+        </div>
+
+        <div class="cards two-cols sim-row-gap">
+          <article class="card">
+            <h3>محاكي الأثر الرقمي (Digital Footprint Simulator)</h3>
+            <p class="section-intro">أجب عن الأسئلة التالية لتكتشف كم من المعلومات قد يستغلها المحتال.</p>
+            <form id="footprintForm">
+              <div class="question-item">
+                <p>هل نشرت يوماً صورة تذكر سفرك أو غيابك عن المنزل؟</p>
+                <label><input type="radio" name="q1" value="yes"> نعم</label>
+                <label><input type="radio" name="q1" value="no"> لا</label>
+              </div>
+              <div class="question-item">
+                <p>هل تضع تاريخ ميلادك بشكل علني في حسابات التواصل؟</p>
+                <label><input type="radio" name="q2" value="yes"> نعم</label>
+                <label><input type="radio" name="q2" value="no"> لا</label>
+              </div>
+              <div class="question-item">
+                <p>هل شاركت يوماً اسم الأم أو المدرسة أو أسماء الحيوانات الأليفة علناً؟</p>
+                <label><input type="radio" name="q3" value="yes"> نعم</label>
+                <label><input type="radio" name="q3" value="no"> لا</label>
+              </div>
+              <div class="question-item">
+                <p>هل تستخدم نفس اسم المستخدم تقريباً في عدة منصات؟</p>
+                <label><input type="radio" name="q4" value="yes"> نعم</label>
+                <label><input type="radio" name="q4" value="no"> لا</label>
+              </div>
+              <button class="btn btn-primary" type="submit">إنشاء التقرير</button>
+            </form>
+            <div id="footprintReport" class="inspector-result"></div>
+          </article>
+
+          <article class="card">
+            <h3>محاكي أمن المنزل الذكي (Smart Home Security Blueprint)</h3>
+            <p class="section-intro">اضغط على كل جهاز لمعرفة الثغرة الافتراضية وطريقة الحماية.</p>
+            <div class="home-grid">
+              <button class="device-btn" data-device="router" type="button">الراوتر</button>
+              <button class="device-btn" data-device="camera" type="button">كاميرا المراقبة</button>
+              <button class="device-btn" data-device="tv" type="button">التلفزيون الذكي</button>
+              <button class="device-btn" data-device="lock" type="button">القفل الرقمي</button>
+            </div>
+            <div id="deviceInfo" class="inspector-result">اختر جهازاً لعرض تفاصيل الحماية.</div>
+          </article>
+        </div>
+
+        <article class="card wifi-card">
+          <h3>محاكي الاختراق الوهمي لشبكات الواي فاي (Wi-Fi Honeypot Simulator)</h3>
+          <p class="section-intro">
+            راقب ما يحدث عند الاتصال بشبكة مجانية مشبوهة، ثم شاهد كيف يخفف VPN المخاطر.
+          </p>
+          <div class="actions">
+            <button id="wifiUnsafeBtn" class="btn btn-danger" type="button">الاتصال بشبكة Free_Cafe_WiFi</button>
+            <button id="wifiSafeBtn" class="btn btn-secondary" type="button">إعادة التجربة مع VPN</button>
+          </div>
+          <ol id="wifiTimeline" class="wifi-timeline"></ol>
+        </article>
+      </div>
+    </section>
+
+    <section id="engagement" class="section section-alt">
+      <div class="container">
+        <h2>ميزات التلعيب والتخصيص</h2>
+        <div class="cards two-cols">
+          <article class="card">
+            <h3>التحدي اليومي (Daily Cyber Challenge)</h3>
+            <p id="dailyChallengeQuestion" class="section-intro"></p>
+            <div class="actions">
+              <button class="btn btn-primary challenge-option" type="button" data-choice="0"></button>
+              <button class="btn btn-secondary challenge-option" type="button" data-choice="1"></button>
+              <button class="btn btn-danger challenge-option" type="button" data-choice="2"></button>
+            </div>
+            <p id="dailyChallengeFeedback" class="form-feedback"></p>
+          </article>
+
+          <article class="card">
+            <h3>لوحة الصدارة والشارات (Leaderboard & Badges)</h3>
+            <p class="section-intro">كل نشاط يمنحك نقاطاً وشارات رقمية.</p>
+            <div class="score-panel">
+              <p id="playerPoints">النقاط: 0</p>
+              <p id="playerBadge">الشارة الحالية: مبتدئ رقمي</p>
+              <button id="shareBadgeBtn" class="btn btn-ghost" type="button">نسخ إنجازي للمشاركة</button>
+            </div>
+            <div id="leaderboardList" class="inspector-result"></div>
+          </article>
+
+          <article class="card two-col-span">
+            <h3>بطاقات السيناريو (Choose Your Own Adventure)</h3>
+            <p id="scenarioText" class="section-intro"></p>
+            <div class="actions">
+              <button id="scenarioChoiceA" class="btn btn-primary" type="button"></button>
+              <button id="scenarioChoiceB" class="btn btn-danger" type="button"></button>
+            </div>
+            <p id="scenarioResult" class="form-feedback"></p>
+          </article>
+        </div>
+
+        <div class="cards two-cols sim-row-gap">
+          <article class="card">
+            <h3>الوضع المبسط لكبار السن (Senior-Friendly Mode)</h3>
+            <p class="section-intro">
+              فعّل الوضع عبر الزر أعلى الصفحة: خطوط أكبر، تباين أعلى، ودعم قراءة صوتية مباشرة للمحتوى.
+            </p>
+            <div class="actions">
+              <button id="readPageBtn" class="btn btn-secondary" type="button">قراءة المقال الحالي صوتيًا</button>
+              <button id="stopReadingBtn" class="btn btn-ghost" type="button">إيقاف القراءة</button>
+            </div>
+            <p id="readStatus" class="form-feedback"></p>
+          </article>
+
+          <article class="card">
+            <h3>ركن الأطفال (Cyber-Kids Zone)</h3>
+            <div class="kids-comic">
+              <p><strong>المشهد 1:</strong> شخص غريب في لعبة أونلاين يطلب رقم هاتفك.</p>
+              <p><strong>المشهد 2:</strong> يقول لك: "لا تخبر أهلك".</p>
+              <p><strong>المشهد 3:</strong> التصرف الصحيح: لا ترد، احظر الحساب، وأخبر والديك فوراً.</p>
+            </div>
+            <p class="section-intro">قاعدة ذهبية للأطفال: لا تتحدث مع الغرباء ولا تشارك صورك أو موقعك.</p>
+          </article>
+
+          <article class="card two-col-span">
+            <h3>مولد قائمة التدقيق المخصصة (Custom Security Checklist)</h3>
+            <form id="checklistForm" class="checklist-form">
+              <label for="deviceType">نوع جهازك الأساسي</label>
+              <select id="deviceType" required>
+                <option value="">اختر</option>
+                <option value="android">Android</option>
+                <option value="ios">iPhone / iOS</option>
+                <option value="windows">Windows PC</option>
+                <option value="mac">Mac</option>
+              </select>
+
+              <label for="appsUsed">تطبيقاتك الأساسية (مفصولة بفاصلة)</label>
+              <input id="appsUsed" type="text" placeholder="واتساب, فيسبوك, البنك">
+
+              <label for="usageStyle">طبيعة الاستخدام</label>
+              <select id="usageStyle" required>
+                <option value="">اختر</option>
+                <option value="family">عائلي</option>
+                <option value="senior">كبار سن</option>
+                <option value="startup">شركة ناشئة</option>
+              </select>
+
+              <div class="actions">
+                <button class="btn btn-primary" type="submit">إنشاء القائمة</button>
+                <button id="printChecklistBtn" class="btn btn-ghost" type="button">طباعة / PDF</button>
+              </div>
+            </form>
+            <div id="customChecklistResult" class="inspector-result"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="smart-tools" class="section">
+      <div class="container">
+        <h2>أدوات ذكية وتقنية متقدمة</h2>
+        <div class="cards two-cols">
+          <article class="card">
+            <h3>فاحص تسريب البيانات (Data Breach Alert)</h3>
+            <p class="section-intro">
+              فحص تجريبي محلي مع دعم ربط API لاحقاً (مثل Have I Been Pwned عبر خادم وسيط آمن).
+            </p>
+            <label for="breachEmailInput">أدخل البريد الإلكتروني</label>
+            <input id="breachEmailInput" type="email" placeholder="name@example.com">
+            <button id="breachCheckBtn" class="btn btn-primary" type="button">فحص التسريب</button>
+            <div id="breachResult" class="inspector-result"></div>
+          </article>
+
+          <article class="card">
+            <h3>مساعد الذكاء الاصطناعي الأمني (AI Cyber Assistant)</h3>
+            <p class="section-intro">انسخ رسالة مشكوك بها وسيقوم المساعد بتحليلها فوراً.</p>
+            <label for="aiAssistantInput">نص الرسالة للتحليل</label>
+            <textarea id="aiAssistantInput" rows="5" placeholder="الصق الرسالة هنا"></textarea>
+            <button id="aiAssistantBtn" class="btn btn-primary" type="button">حلل الرسالة</button>
+            <div id="aiAssistantResult" class="inspector-result"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="community" class="section section-alt">
+      <div class="container">
+        <h2>جدار البلاغات المجتمعية (Scam Wall)</h2>
+        <p class="section-intro">ارفع صور رسائل الاحتيال بعد إخفاء معلوماتك الشخصية لتحذير الآخرين.</p>
+        <article class="card">
+          <form id="scamWallForm">
+            <label for="scamTitle">عنوان البلاغ</label>
+            <input id="scamTitle" type="text" required placeholder="مثال: رسالة شحن مزيفة">
+
+            <label for="scamType">نوع الاحتيال</label>
+            <select id="scamType" required>
+              <option value="">اختر</option>
+              <option value="sms">SMS</option>
+              <option value="email">Email</option>
+              <option value="call">مكالمة هاتفية</option>
+              <option value="social">منصات اجتماعية</option>
+            </select>
+
+            <label for="scamDescription">وصف مختصر</label>
+            <textarea id="scamDescription" rows="4" required placeholder="اذكر العلامات المشبوهة التي ظهرت لك"></textarea>
+
+            <label for="scamImage">صورة البلاغ (اختياري)</label>
+            <input id="scamImage" type="file" accept="image/*">
+
+            <button class="btn btn-primary" type="submit">إضافة إلى الجدار</button>
+          </form>
+          <div id="scamWallList" class="community-wall"></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="b2b" class="section">
+      <div class="container">
+        <h2>للشركات (B2B)</h2>
+        <p class="section-intro">اطلب تدريبًا توعويًا مخصصًا لفريقك.</p>
+        <div class="cards two-cols">
+          <article class="card">
+            <h3>خطة دمج الروابط التسويقية باحتراف</h3>
+            <ul class="plain-list">
+              <li>إضافة روابط موثوقة فقط داخل محتوى مرتبط بالسياق.</li>
+              <li>إظهار إفصاح واضح: قد نحصل على عمولة دون تكلفة إضافية عليك.</li>
+              <li>تجنب الإزعاج: 1-2 رابط كحد أقصى لكل صفحة.</li>
+              <li>إنشاء صفحة "أدوات موصى بها" تتضمن مقارنة موجزة وشفافة.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>نموذج تواصل تدريبي</h3>
+            <form id="contactForm" class="contact-form" novalidate>
+              <label for="companyName">اسم الشركة</label>
+              <input id="companyName" name="companyName" type="text" required>
+
+              <label for="companySize">عدد الموظفين</label>
+              <select id="companySize" name="companySize" required>
+                <option value="">اختر</option>
+                <option>1-10</option>
+                <option>11-50</option>
+                <option>51-200</option>
+                <option>200+</option>
+              </select>
+
+              <label for="trainingType">نوع التدريب المطلوب</label>
+              <select id="trainingType" name="trainingType" required>
+                <option value="">اختر</option>
+                <option>تدريب أساسي</option>
+                <option>تدريب متقدم</option>
+                <option>محاكاة تصيد للفريق</option>
+              </select>
+
+              <label for="workEmail">البريد الإلكتروني للعمل</label>
+              <input id="workEmail" name="workEmail" type="email" required>
+
+              <label for="notes">ملاحظات</label>
+              <textarea id="notes" name="notes" rows="4" placeholder="اكتب احتياج شركتك بإيجاز"></textarea>
+
+              <label class="checkbox-row">
+                <input id="privacyConsent" type="checkbox" required>
+                أوافق على سياسة الخصوصية
+              </label>
+
+              <button class="btn btn-primary" type="submit">إرسال الطلب</button>
+              <p id="formFeedback" class="form-feedback" role="status"></p>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© الوعي بالامن السيبراني  -   أ.د/زينب امين .</p>
+    </div>
+  </footer>
+
+  <div id="resultModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-content">
+      <h3 id="modalTitle"></h3>
+      <p id="modalText"></p>
+      <ul id="redFlagsList"></ul>
+      <button id="closeModalBtn" class="btn btn-primary" type="button">إغلاق</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
